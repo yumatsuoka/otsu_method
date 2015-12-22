@@ -106,9 +106,9 @@ def main():
 
     #画像の保存
     cv2.imwrite("gray.jpg", image)                          #グレイスケール
-    #cv2.imwrite("average.jpg", output_average)              #静的な閾値使用
+    cv2.imwrite("average.jpg", output_average)              #静的な閾値使用
     cv2.imwrite("otsu.jpg", output_otsu)                    #大津メソッド
-    #cv2.imwrite("Adaptive_Gaussian_Thresholoding.jpg", aGH) #OpenCVの動的な閾値使用
+    cv2.imwrite("Adaptive_Gaussian_Thresholoding.jpg", aGH) #OpenCVの動的な閾値使用
 
     #画像の表示
     cv2.imshow("input", image)                              #グレイスケール
@@ -118,12 +118,12 @@ def main():
 
     #ヒストグラムの出力
     plt.plot(histgram)                                      #ヒストグラムの表示
-    #plt.axvline(x=maxValueIndex, color='red', label='otsu') #大津メソッドの閾値表示
-    #plt.axvline(x=average_histgram, color='green', label='average')#静的な閾値表示
+    plt.axvline(x=maxValueIndex, color='red', label='otsu') #大津メソッドの閾値表示
+    plt.axvline(x=average_histgram, color='green', label='average')#静的な閾値表示
     plt.legend(loc='upper right')                           #ラベルを表示
-    #plt.title("histgram of brightness")                     #タイトル
-    #plt.xlabel("brightness")                                #横軸ラベル
-    #plt.ylabel("frequency")                                 #縦軸ラベル
+    plt.title("histgram of brightness")                     #タイトル
+    plt.xlabel("brightness")                                #横軸ラベル
+    plt.ylabel("frequency")                                 #縦軸ラベル
     plt.xlim([0, 256])                                      #x軸の範囲設定
     plt.show()
 
