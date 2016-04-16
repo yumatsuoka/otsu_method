@@ -13,12 +13,12 @@ Implement otsu-thresholding method. It's useful to create a 2 intensity image.
 
 ##Result
 original image is as following.  
-![Alt text](./image/sample.jpg)
+![Alt text](./image/sample.jpg)  
 applied otsu method to the original one is as following.  
-![Alt text](./image/otsu.jpg)
+![Alt text](./image/otsu.jpg)  
 threshold is 128 intensity to create a 2 intensity image.  
-![Alt text](./image/average.jpg)
+![Alt text](./image/average.jpg)  
 original image's intensity histogram with static threshold(128) and otsu threshold are as following.  
-![Alt text](./image/intensity_histogram.png)
+![Alt text](./image/intensity_histogram.png)  
 Used 'Adaptive_Gaussian_Thresholoding'. It is included in OpenCV.  
-![Alt text](./image/Adaptive_Gaussian_Thresholoding.jpg)
+![Alt text](./image/Adaptive_Gaussian_Thresholoding.jpg)  
