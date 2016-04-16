@@ -61,7 +61,7 @@ def calculateAll(blackList, whiteList):
 
 def main():
     #ファイル読み込み_グレイスケールで読み込み
-    image_path = "sample.jpg"                               #読み込む画像の名前
+    image_path = "./image/sample.jpg"                               #読み込む画像の名前
     image = cv2.imread(image_path, 0)                       #画像を読み込んでnumpy型のリストに格納
 
     #ヒストグラムの作成

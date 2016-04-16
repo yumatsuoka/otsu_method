@@ -10,3 +10,10 @@ Implement otsu-thresholding method. It's useful to create a 2 intensity image.
 ##How to use
 -prepare sample image(.jpg)  
 -python otsu_threshold.py
+
+##Result
+![Alt text](./image/sample.jpg)
+![Alt text](./image/otsu.jpg)
+![Alt text](./image/average.jpg)
+![Alt text](./image/intensity_histogram.png)
+![Alt text](./image/Adaptive_Gaussian_Thresholoding.jpg)
