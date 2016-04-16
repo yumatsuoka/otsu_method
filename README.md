@@ -12,8 +12,13 @@ Implement otsu-thresholding method. It's useful to create a 2 intensity image.
 -python otsu_threshold.py
 
 ##Result
+original image is as following.
 ![Alt text](./image/sample.jpg)
+applied otsu method to the original one is as following.
 ![Alt text](./image/otsu.jpg)
+threshold is 128 intensity to create a 2 intensity image.
 ![Alt text](./image/average.jpg)
+original image's intensity histogram with static threshold(128) and otsu threshold are as following.
 ![Alt text](./image/intensity_histogram.png)
+Used 'Adaptive_Gaussian_Thresholoding'. It is included in OpenCV.
 ![Alt text](./image/Adaptive_Gaussian_Thresholoding.jpg)
