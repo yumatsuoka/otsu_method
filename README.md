@@ -1,24 +1,24 @@
-#Otsu thresholding method
-##Abstract
+# Otsu thresholding method
+## Abstract
 Implement otsu-thresholding method. It's useful to create a 2 intensity image.
 
-##Requirements
--Python 3.x (checked Python 3.4.3)  
--numpy(checked matplotlib 1.11.0)  
--pylab(checked matplotlib 1.5.0)  
--OpenCV(checked OpenCV 3.0)  
-##How to use
--prepare sample image(.jpg)  
--python otsu_threshold.py
+## Requirements
+- Python 3.x (checked Python 3.4.3)  
+- numpy(checked matplotlib 1.11.0)  
+- pylab(checked matplotlib 1.5.0)  
+- OpenCV(checked OpenCV 3.0)  
+## How to use
+- prepare sample image(.jpg)  
+- python otsu_threshold.py
 
-##Result
+## Result
 original image is as following.  
-![Alt text](./image/sample.jpg)  
+<img src="./image/sample.jpg" width="320px">
 applied otsu method to the original one is as following.  
-![Alt text](./image/otsu.jpg)  
+<img src="./image/otsu.jpg" width="320px">
 threshold is 128 intensity to create a 2 intensity image.  
-![Alt text](./image/average.jpg)  
+<img src="./image/average.jpg" width="320px">
 original image's intensity histogram with static threshold(128) and otsu threshold are as following.  
-![Alt text](./image/intensity_histogram.png)  
-Used 'Adaptive_Gaussian_Thresholoding'. It is included in OpenCV.  
-![Alt text](./image/Adaptive_Gaussian_Thresholoding.jpg)  
+<img src="./image/intensity_histogram.png" width="320px">
+Used 'Adaptive_Gaussian_Thresholoding'. It is included in OpenCV.   
+<img src="./image/Adaptive_Gaussian_Thresholoding.jpg" width="320px">
